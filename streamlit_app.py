@@ -1,4 +1,5 @@
 # --- Imports ---
+import os
 import streamlit as st
 import torch
 import torchvision.models as models
@@ -81,9 +82,9 @@ with tab_demo:
     elif step == 5:
         st.write("Evaluation metrics include accuracy, precision, recall, and F1 score.")
         st.subheader("Confusion Matrix")
-        st.image("demo_assets/confusion_matrix.png", caption="Confusion Matrix", use_container_width=True)
+        st.image("notebooks/demo_assets/confusion_matrix.png", caption="Confusion Matrix", use_container_width=True)
         st.subheader("ROC AUC Curve")
-        st.image("demo_assets/roc_auc_curve.png", caption="ROC AUC Curve", use_container_width=True)
+        st.image("notebooks/demo_assets/roc_auc_curve.png", caption="ROC AUC Curve", use_container_width=True)
 
     col1, col2 = st.columns([1, 3])
     if col1.button("⬅ Back", disabled=(step == 0)):
