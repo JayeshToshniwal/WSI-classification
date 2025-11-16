@@ -352,10 +352,10 @@ with tab_help:
     This app classifies lymphoma subtypes from histopathology tiles using deep learning. You can upload images, run classification, visualize results with GradCAM, and explore image features.
     
     **Link to documentation**
-     https://github.com/Jacinda-G/-lymphoid-malignancy-classification
+     https://github.com/JayeshToshniwal/WSI-classification
                  
     **User Guide (click view raw to download)**
-    https://github.com/Jacinda-G/-lymphoid-malignancy-classification/blob/main/Lymphoid%20Malignancy%20Product%20User%20Guide.docx
+    https://github.com/JayeshToshniwal/WSI-classification/blob/main/Lymphoid%20Malignancy%20Product%20User%20Guide.docx
                  
     **Tabs**  
     - **Demo Mode**: A walkthrough of how the model was trained.  
